@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\ErrorHere.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\ErrorHere.cshtml" />
+    <Content Remove="Pages\ErrorHere.razor" />
+    <Content Remove="Pages\FetchData.razor" />
+  </ItemGroup>
+
+</Project>
