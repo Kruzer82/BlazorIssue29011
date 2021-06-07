@@ -62,9 +62,6 @@ export class MainView extends Layout {
   }
 
   private getMenuRoutes(): RouteInfo[] {
-return views.filter((route) => route.title) as RouteInfo[];
-
-
     return views.filter((route) => route.title) as RouteInfo[];
   }
 

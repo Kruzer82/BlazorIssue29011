@@ -26,7 +26,12 @@ export const views: ViewRoute[] = [
     title: 'About',
     action: async () => { await import ('./views/about/about-view'); }
 },
-
+{
+    path: 'users',
+    component: 'users-view',
+    title: 'Users',
+    action: async () => { await import ('./views/users/users-view'); }
+},
 ];
 export const routes: ViewRoute[] = [
 {
